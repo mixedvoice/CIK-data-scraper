@@ -1,0 +1,17 @@
+.deps/
+.venv/
+venv/
+__pycache__/
+data/
+outputs/
+node_modules/
+*.log
+
+# Корневые папки содержат локальные выгрузки, окружения и временные файлы.
+/*/
+!/config/
+!/tests/
+!/tools/
+!/.github/
+~$*
+*.tmp.xlsx
